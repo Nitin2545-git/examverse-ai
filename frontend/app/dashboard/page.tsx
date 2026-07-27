@@ -1,3 +1,5 @@
+import Sidebar from "../../components/Sidebar";
+
 export default function DashboardPage() {
   return (
     <div
@@ -7,27 +9,7 @@ export default function DashboardPage() {
       }}
     >
       {/* Sidebar */}
-      <aside
-        style={{
-          width: "250px",
-          background: "#1f2937",
-          color: "white",
-          padding: "20px",
-        }}
-      >
-        <h2>ExamVerse AI</h2>
-
-        <hr />
-
-        <p>🏠 Dashboard</p>
-        <p>📚 Notes</p>
-        <p>📝 Quiz</p>
-        <p>📄 Previous Papers</p>
-        <p>🤖 AI Chat</p>
-        <p>👤 Profile</p>
-        <p>⚙️ Settings</p>
-        <p>🚪 Logout</p>
-      </aside>
+      <Sidebar />
 
       {/* Main Content */}
       <main
