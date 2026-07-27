@@ -5,6 +5,7 @@ import PopularExams from "../components/PopularExams";
 import AIChatPreview from "../components/AIChatPreview";
 import Features from "../components/Features";
 import Statistics from "../components/Statistics";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AIChatPreview />
       <Features />
       <Statistics />
+      <Testimonials />
     </>
   );
 }
