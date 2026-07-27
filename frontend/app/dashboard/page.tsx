@@ -1,4 +1,5 @@
 import Sidebar from "../../components/Sidebar";
+import ProfileCard from "../../components/ProfileCard";
 
 export default function DashboardPage() {
   return (
@@ -23,21 +24,7 @@ export default function DashboardPage() {
         <p>Welcome to ExamVerse AI Dashboard.</p>
 
         {/* Profile Card */}
-        <div
-          style={{
-            marginTop: "30px",
-            border: "1px solid #ddd",
-            borderRadius: "12px",
-            padding: "20px",
-            background: "#f8f9fa",
-          }}
-        >
-          <h2>👤 Student Profile</h2>
-
-          <p><strong>Name:</strong> Demo Student</p>
-          <p><strong>Email:</strong> student@example.com</p>
-          <p><strong>Membership:</strong> Free Plan</p>
-        </div>
+        <ProfileCard />
 
         {/* Dashboard Cards */}
         <div
@@ -48,22 +35,50 @@ export default function DashboardPage() {
             marginTop: "30px",
           }}
         >
-          <div style={{ border: "1px solid #ddd", borderRadius: "10px", padding: "20px", width: "220px" }}>
+          <div
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: "10px",
+              padding: "20px",
+              width: "220px",
+            }}
+          >
             <h3>📚 My Courses</h3>
             <p>0 Courses Enrolled</p>
           </div>
 
-          <div style={{ border: "1px solid #ddd", borderRadius: "10px", padding: "20px", width: "220px" }}>
+          <div
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: "10px",
+              padding: "20px",
+              width: "220px",
+            }}
+          >
             <h3>📝 My Quizzes</h3>
             <p>0 Quizzes Attempted</p>
           </div>
 
-          <div style={{ border: "1px solid #ddd", borderRadius: "10px", padding: "20px", width: "220px" }}>
+          <div
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: "10px",
+              padding: "20px",
+              width: "220px",
+            }}
+          >
             <h3>📊 Progress</h3>
             <p>0% Completed</p>
           </div>
 
-          <div style={{ border: "1px solid #ddd", borderRadius: "10px", padding: "20px", width: "220px" }}>
+          <div
+            style={{
+              border: "1px solid #ddd",
+              borderRadius: "10px",
+              padding: "20px",
+              width: "220px",
+            }}
+          >
             <h3>🤖 AI Assistant</h3>
             <p>Ask your doubts anytime.</p>
           </div>
