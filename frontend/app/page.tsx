@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 import PopularExams from "../components/PopularExams";
 import AIChatPreview from "../components/AIChatPreview";
 import Features from "../components/Features";
+import Statistics from "../components/Statistics";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <PopularExams />
       <AIChatPreview />
       <Features />
+      <Statistics />
     </>
   );
 }
