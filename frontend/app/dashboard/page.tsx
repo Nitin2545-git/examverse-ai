@@ -110,6 +110,42 @@ export default function DashboardPage() {
           <li>Asked 5 AI Questions</li>
         </ul>
       </section>
+
+      {/* Notifications */}
+      <section
+        style={{
+          marginTop: "40px",
+          border: "1px solid #ddd",
+          borderRadius: "12px",
+          padding: "20px",
+          background: "#fff8e1",
+        }}
+      >
+        <h2>🔔 Notifications</h2>
+
+        <ul>
+          <li>📢 New Rajasthan CET Notes Available</li>
+          <li>📝 Weekly Quiz starts tomorrow</li>
+          <li>🤖 AI Study Assistant has new features</li>
+        </ul>
+      </section>
+
+      {/* Today's Goal */}
+      <section
+        style={{
+          marginTop: "40px",
+          border: "1px solid #ddd",
+          borderRadius: "12px",
+          padding: "20px",
+          background: "#e8f5e9",
+        }}
+      >
+        <h2>🎯 Today's Goal</h2>
+
+        <p>✅ Complete 2 Quizzes</p>
+        <p>✅ Read 1 Chapter</p>
+        <p>✅ Ask 3 AI Questions</p>
+      </section>
     </main>
   );
 }
