@@ -13,6 +13,32 @@ export default function DashboardPage() {
         Welcome to ExamVerse AI Dashboard.
       </p>
 
+      {/* Profile Card */}
+      <div
+        style={{
+          marginTop: "30px",
+          border: "1px solid #ddd",
+          borderRadius: "12px",
+          padding: "20px",
+          background: "#f8f9fa",
+        }}
+      >
+        <h2>👤 Student Profile</h2>
+
+        <p>
+          <strong>Name:</strong> Demo Student
+        </p>
+
+        <p>
+          <strong>Email:</strong> student@example.com
+        </p>
+
+        <p>
+          <strong>Membership:</strong> Free Plan
+        </p>
+      </div>
+
+      {/* Dashboard Cards */}
       <div
         style={{
           display: "flex",
@@ -69,6 +95,21 @@ export default function DashboardPage() {
           <p>Ask your doubts anytime.</p>
         </div>
       </div>
+
+      {/* Recent Activity */}
+      <section
+        style={{
+          marginTop: "40px",
+        }}
+      >
+        <h2>📅 Recent Activity</h2>
+
+        <ul>
+          <li>Completed Rajasthan GK Quiz</li>
+          <li>Downloaded Polity Notes</li>
+          <li>Asked 5 AI Questions</li>
+        </ul>
+      </section>
     </main>
   );
 }
