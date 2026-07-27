@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SignupPage() {
   return (
     <main
@@ -48,6 +50,11 @@ export default function SignupPage() {
       >
         Create Account
       </button>
+
+      <p style={{ marginTop: "20px", textAlign: "center" }}>
+        Already have an account?{" "}
+        <Link href="/login">Login</Link>
+      </p>
     </main>
   );
 }
